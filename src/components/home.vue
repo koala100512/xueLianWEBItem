@@ -1,5 +1,5 @@
 <template>
-  <div>雪莲老师的项目</div>
+  <div>一个简单的网页</div>
 </template>
 
 <script>
