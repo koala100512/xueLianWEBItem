@@ -1,14 +1,24 @@
 <template>
-  <div>一个简单的网页</div>
+  <div class="container">
+    <nav-table class="nav"></nav-table>
+  </div>
 </template>
 
 <script>
-
+import Nav from './nav'
 export default {
-    name: 'Home'
+    name: 'Home',
+    components: {
+      NavTable: Nav
+    }
 }
 </script>
 
-<style>
+<style scoped>
+.container {
+  width: 100%;
+}
+
+</style>
 
 </style>
