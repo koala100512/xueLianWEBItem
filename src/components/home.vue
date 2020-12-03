@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Nav from './nav'
+import Nav from './common/nav'
 export default {
     name: 'Home',
     components: {
